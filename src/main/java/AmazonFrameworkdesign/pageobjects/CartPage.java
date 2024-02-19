@@ -14,7 +14,7 @@ import AmazonFrameworkdesin.AbstractComponent.AbstractComponent;
 public class CartPage extends AbstractComponent {
 	
 	WebDriver driver;
-	
+	//pagefactory
 	@FindBy(css=".totalRow button")
 	WebElement checkout;
 	
