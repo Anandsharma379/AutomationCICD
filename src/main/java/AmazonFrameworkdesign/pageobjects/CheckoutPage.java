@@ -21,7 +21,7 @@ public class CheckoutPage extends AbstractComponent{
       PageFactory.initElements(driver, this);
 	}
 	
-	
+	//pagefactory
 	
 	@FindBy(css=".action__submit")
 	WebElement submit;
