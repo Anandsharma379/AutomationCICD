@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 186.728 s <<< FAILURE! - in TestSuite
+LoginErrorValidation(Amazon.Frameworkdesign.tests.ErrorValidationsTest)  Time elapsed: 0.539 s  <<< FAILURE!
+java.lang.AssertionError: expected [Login Successfully] but found [Login Successfully1]
+	at Amazon.Frameworkdesign.tests.ErrorValidationsTest.LoginErrorValidation(ErrorValidationsTest.java:26)
+
+runScenario(cucumber.TestNGTestRunner)  Time elapsed: 30.956 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because "prod" is null
+
